@@ -4,8 +4,8 @@ Tools for working with the Shimmer3 wearable devices (not affiliated with the co
 
 ### Shimmer3 Calibration Verifier (AHRS Visualizer)
 A tool for checking the calibration of a device (or just visualize the orientation)
-  - Built on Python 3.7 (64-bit) in Windows 10 (Likely to work just fine under Linux with the depricated RFCOMM tool)
-  - Requires pygame (obtainable through pip) and a Shimmer3 device configured for Wide-range acclerometer, gyroscope and magnetometer at 51.2 Hz
+  - Built on Python 3.7 (64-bit) in Windows 10
+  - Requires pygame (obtainable through pip) and a Shimmer3 device configured for Wide-range accelerometer, gyroscope and magnetometer at 51.2 Hz
   - Will use the calibration settings stored on the device
   - It uses orientation.py which is licensed under GNU_Lesser_GPL
   - There is a math related error that occurs every now and then (likely to be related to the update frequency of the model and the sampling frequency difference)
