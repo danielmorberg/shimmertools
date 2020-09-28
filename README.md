@@ -12,7 +12,7 @@ A tool for checking the calibration of a device (or just visualize the orientati
 
 Replace COM5 with the port your devices uses.
 
-### ToDo
+*ToDo:*
   - Figure out the math problem in the AHRS Visualizer
   - Multiple sensor visualizations in one window
   - A HAR (Human Activity Recognition) tool will be uploaded in the near future
